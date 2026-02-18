@@ -1678,6 +1678,13 @@ footer a:hover {
         padding: 2rem 0;
     }
 
+    .hero-content,
+    .hero-image {
+        flex: auto;
+        width: 100%;
+        max-width: 100%;
+    }
+
     .hero-content h1 {
         font-size: 2rem;
     }
