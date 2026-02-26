@@ -26,7 +26,7 @@
     <header>
         <nav>
             <a href="index.html" class="logo">
-                <img src="images/Website Logo/Logo-removebg-preview.png" alt="IPTV Pro Logo">
+                <img src="images/Website Logo/Logo-removebg-preview.png" alt="IPTV-SPOT Logo">
             </a>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
@@ -35,8 +35,12 @@
                 <li><a href="contact-us.html">Contact Us</a></li>
                 <li><a href="faq.html">FAQ</a></li>
             </ul>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
             <div class="header-right">
-                <a href="contact-us.html" class="btn-trial">Free Trial</a>
+                <a href="https://wa.me/212600000000?text=Hi%20IPTV-SPOT%2C%20I%20want%20to%20request%20a%20free%20trial.%20Please%20send%20me%20the%20details."
+                    class="btn-trial" target="_blank" rel="noopener noreferrer">Free Trial</a>
             </div>
         </nav>
     </header>
@@ -45,7 +49,7 @@
         <section class="legal-section container"
             style="padding: 60px 20px; max-width: 800px; margin: 0 auto; line-height: 1.6;">
             <div style="text-align: center; margin-bottom: 30px;">
-                <img src="images/privicy and policy.png" alt="Legal Page Illustration"
+                <img src="images/privicy and policy.png" alt="IPTV-SPOT Privacy Policy"
                     style="max-width: 100%; width: 500px; height: auto;">
             </div>
             <h1 class="fade-in-up">Privacy Policy</h1>
@@ -144,16 +148,20 @@
 
 
     <script src="js/cookie-consent.js"></script>
-    <script>
-        window.addEventListener('scroll', function () {
-            var header = document.querySelector('header');
-            if (window.scrollY > 50) {
-                header.classList.add('header-scrolled');
-            } else {
-                header.classList.remove('header-scrolled');
-            }
-        });
-    </script>
+    <script src="js/global.js"></script>
+
+    <a href="https://wa.me/212600000000?text=Hi%20IPTV-SPOT%2C%20I%20need%20support.%20Can%20you%20help%20me%3F"
+        class="floating-whatsapp" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-consent-banner" style="display: none;">
+        <div class="cookie-content">
+            <p>We use cookies to improve your experience. By continuing to visit this site you agree to our use of
+                cookies.</p>
+            <button id="accept-cookies-btn">Accept</button>
+        </div>
+    </div>
 </body>
 
 </html>

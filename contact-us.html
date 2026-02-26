@@ -26,7 +26,7 @@
     <header>
         <nav>
             <a href="index.html" class="logo">
-                <img src="images/Website Logo/Logo-removebg-preview.png" alt="IPTV Pro Logo">
+                <img src="images/Website Logo/Logo-removebg-preview.png" alt="IPTV-SPOT Logo">
             </a>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
@@ -35,8 +35,12 @@
                 <li><a href="contact-us.html">Contact Us</a></li>
                 <li><a href="faq.html">FAQ</a></li>
             </ul>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
             <div class="header-right">
-                <a href="contact-us.html" class="btn-trial">Free Trial</a>
+                <a href="https://wa.me/212600000000?text=Hi%20IPTV-SPOT%2C%20I%20want%20to%20request%20a%20free%20trial.%20Please%20send%20me%20the%20details."
+                    class="btn-trial" target="_blank" rel="noopener noreferrer">Free Trial</a>
             </div>
         </nav>
     </header>
@@ -44,7 +48,8 @@
     <main>
         <div class="contact-header-image fade-in-up"
             style="text-align: center; margin-bottom: 2rem; padding-top: 2rem;">
-            <img src="images/Contact Us section.png" alt="Contact Support" style="max-width: 650px; height: auto;">
+            <img src="images/Contact Us section.png" alt="Contact Support"
+                style="max-width: 650px; height: auto; margin: 0 auto;">
         </div>
 
         <section class="contact-section">
@@ -59,9 +64,9 @@
                         <i class="fab fa-whatsapp support-card-icon" style="color: #25D366;"></i>
                         <h3>WhatsApp Support</h3>
                         <p>Instant replies for setup and free trials.</p>
-                        <a href="https://wa.me/212600000000" class="btn-primary support-btn"
-                            style="background: #25D366; border-color: #25D366;" target="_blank"
-                            rel="noopener noreferrer">Message Us</a>
+                        <a href="https://wa.me/212600000000?text=Hi%20IPTV-SPOT%2C%20I%20have%20a%20question%20about%20your%20service."
+                            class="btn-primary support-btn" style="background: #25D366; border-color: #25D366;"
+                            target="_blank" rel="noopener noreferrer">Message Us</a>
                     </div>
 
                     <!-- Card 2: Telegram -->
@@ -157,16 +162,20 @@
 
 
     <script src="js/cookie-consent.js"></script>
-    <script>
-        window.addEventListener('scroll', function () {
-            var header = document.querySelector('header');
-            if (window.scrollY > 50) {
-                header.classList.add('header-scrolled');
-            } else {
-                header.classList.remove('header-scrolled');
-            }
-        });
-    </script>
+    <script src="js/global.js"></script>
+
+    <a href="https://wa.me/212600000000?text=Hi%20IPTV-SPOT%2C%20I%20need%20support.%20Can%20you%20help%20me%3F"
+        class="floating-whatsapp" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-consent-banner" style="display: none;">
+        <div class="cookie-content">
+            <p>We use cookies to improve your experience. By continuing to visit this site you agree to our use of
+                cookies.</p>
+            <button id="accept-cookies-btn">Accept</button>
+        </div>
+    </div>
 </body>
 
 </html>
